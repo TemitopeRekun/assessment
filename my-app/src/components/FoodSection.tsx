@@ -23,7 +23,7 @@ const FoodSection = () => {
 				What makes us different <br /> makes them stronger
 			</h1>
 
-			<div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+			<div className="grid grid-cols-1 lg:grid-cols-3 gap-7 justify-between items-center">
 				<div className="space-y-8">
 					<FeatureItem
 						icon={food1}

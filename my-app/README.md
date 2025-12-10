@@ -5,13 +5,17 @@
 
 # React, TypeScript & Tailwind CSS Showcase
 
+A modern, responsive single-page application built to demonstrate a clean and scalable front-end architecture using React, TypeScript, and Tailwind CSS.
+
+**[Live Demo](https://temitoperekun.github.io/assessment/)**
+
+---
+
 ## 🚀 Project Overview
 
 This project is a modern, responsive single-page application built with a clean and scalable front-end architecture. It demonstrates component-based design, strong typing with TypeScript, and utility-first styling with Tailwind CSS v4.
 
 The page showcases product information, benefits, nutrition insights, and trust-building elements — all organized into reusable components.
-
----
 
 ## ✨ Key Features
 
@@ -45,7 +49,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1.  Clone the repository:
     ```sh
-    git clone <your-repository-url>
+    git clone https://github.com/TemitopeRekun/assessment.git
     ```
 2.  Navigate to the project directory:
     ```sh
