@@ -1,17 +1,23 @@
 @import "tailwindcss";
 
 @layer base {
-  h1 {
-    @apply text-[40px] font-semibold leading-tight text-[#161723];
-  }
+	@theme { --font-sans: "Inter Tight", sans-serif; }
 
-  p {
-    @apply text-[16px] leading-relaxed text-[#424153];
-  }
+	body {
+		@apply font-sans; /* This will now apply Inter Tight */
+	}
+
+	h1 {
+		@apply text-[30px] leading-9 font-semibold text-[#161723];
+	}
+
+	p {
+		@apply text-[12px] leading-relaxed text-[#424153];
+	}
 }
 
 @layer utilities {
-  .sectionWrapper {
-    @apply py-20 px-4 md:px-6 lg:px-8 max-w-5xl mx-auto;
-  }
+	.sectionWrapper {
+		@apply w-full max-w-5xl mx-auto px-6 py-16;
+	}
 }
