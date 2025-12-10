@@ -11,12 +11,15 @@ import apple from "../assets/image 28.png";
 import google from "../assets/image 29.jpg";
 import shield from "../assets/shield.svg";
 
+
+
 const FoodSection = () => {
-	const logos = [paypal, visa, master, apple, google];
+
+    const logos = [paypal, visa, master, apple, google];
 
 	return (
 		<section className="sectionWrapper flex flex-col items-center">
-			<h1 className="text-[30px] md:text-4xl font-semibold text-center mb-16">
+			<h1 className="text-[30px] md:text-4xl font-semibold tracking-tight text-center mb-16">
 				What makes us different <br /> makes them stronger
 			</h1>
 
@@ -56,14 +59,14 @@ const FoodSection = () => {
 				</div>
 			</div>
 			<div className="flex justify-center">
-				<div className="bg-[#EE6F4B] rounded-lg w-full max-w-lg mt-15 py-3 px-6 md:px-8 text-center">
-					<h3 className="text-white tracking-tight">
+				<div className="bg-[#EE6F4B] rounded-lg w-lg mt-15 py-3 px-6 md:px-8 text-center">
+					<h3 className="text-white font-semibold text-[14px] tracking-tight">
 						Get your dog's healthy meal today!
 					</h3>
 				</div>
 			</div>
-			<div className="w-full max-w-lg flex flex-col lg:flex-row items-center justify-between gap-6 mt-8">
-				<div className="flex items-center gap-2">
+			<div className="w-lg flex flex-col lg:flex-row items-center px-2 justify-between gap-1 mt-8">
+				<div className="flex items-center gap-1">
 					<img src={shield} alt="Shield icon" className="w-5 h-5" />
 					<span className=" text-[13px] text-[#424153] tracking-tight">
 						30-day money back guarantee

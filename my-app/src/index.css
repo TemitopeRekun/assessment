@@ -18,6 +18,6 @@
 
 @layer utilities {
 	.sectionWrapper {
-		@apply w-full max-w-5xl mx-auto px-6 py-16;
+		@apply py-15 px-4 md:px-6 lg:px-8 max-w-4xl mx-auto;
 	}
 }

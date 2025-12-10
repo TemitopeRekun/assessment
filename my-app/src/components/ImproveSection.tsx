@@ -2,7 +2,7 @@ import image from "../assets/Rectangle 8.png";
 
 const ImproveSection = () => {
 	return (
-		<section className="sectionWrapper flex flex-col md:flex-row gap-13 justify-between items-center">
+		<section className="sectionWrapper flex flex-col md:flex-row gap-8 justify-between items-center">
 			<div className="max-w-md">
 				<img src={image} className="w-[590px]" alt="" />
 			</div>
