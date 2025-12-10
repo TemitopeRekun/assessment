@@ -6,7 +6,7 @@ const ImproveSection = () => {
 			<div className="max-w-md">
 				<img src={image} className="w-[590px]" alt="" />
 			</div>
-			<div className="max-w-[360px]">
+			<div className="max-w-sm md:max-w-[360px]">
 				<h1 className="text-[30px] text-[#161723] mb-2">
 					Improve overall gastrointestinal health for better nutrient
 					absorption

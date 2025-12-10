@@ -36,7 +36,7 @@ export default function NutritionSection({
 	return (
 		<section className="sectionWrapper">
 			<div className="flex flex-col-reverse lg:flex-row items-center gap-30">
-				<div className="flex-1 max-w-xl">
+				<div className="flex-1 max-w-sm md:max-w-xl">
 					<h1 className="text-[30px] text-[#161723] mb-4">
 						Nutrition is the foundation for longer, healthier lives in
 						dogs.

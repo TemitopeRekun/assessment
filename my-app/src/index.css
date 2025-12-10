@@ -8,7 +8,7 @@
 	}
 
 	h1 {
-		@apply text-[30px] leading-9 font-semibold text-[#161723];
+		@apply text-[30px] leading-10 font-semibold text-[#161723];
 	}
 
 	p {
